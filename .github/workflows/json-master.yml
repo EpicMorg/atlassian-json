@@ -18,6 +18,10 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
+      - name: Get current date
+        id: date
+        run: echo "MY_DATE=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
+        
       - name: Checkout repository
         uses: actions/checkout@v2
       
@@ -47,10 +51,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GHT }} # This token is provided by Actions, you do not need to create your own token
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          tag_name: ${{ env.MY_DATE }}
+          release_name: Release ${{ env.MY_DATE }}
           body: |
             Changes in this Release
-            - Atlassian JSON updated
+            - Atlassian JSON updated ${{ env.MY_DATE }}
           draft: false
           prerelease: false
