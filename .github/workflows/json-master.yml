@@ -18,25 +18,39 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
       
-    - name: Configure git
-      run: |
+      - name: Configure git
+        run: |
           cd json-backups
           ls -las
           git config --global user.name "github-actions[bot]"
           git config --global user.email "stamepicmorg@users.noreply.github.com"
 
-    - name: Update files
-      run: |
+      - name: Update files
+        run: |
           cd json-backups
           ls -las
           ./update.sh
 
-    - name: Commit and push changes
-      uses: devops-infra/action-commit-push@master
-      with:
-          github_token: ${{ secrets.GHT }}
+      - name: Commit and push changes
+        uses: devops-infra/action-commit-push@master
+        with:
+          github_token: ${{ secrets.GHT }} # This token is provided by Actions, you do not need to create your own token
           commit_message: Atlassian JSON updated
           commit_prefix: "[AUTO-COMMIT]"
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GHT }} # This token is provided by Actions, you do not need to create your own token
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            Changes in this Release
+            - Atlassian JSON updated
+          draft: false
+          prerelease: false
