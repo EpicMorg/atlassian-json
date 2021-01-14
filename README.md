@@ -7,7 +7,7 @@ Backup archive of `Atlassian` jsons. `Atlassian Downloader` available [here](htt
 ## Supported products:
 
 | Product | Current | Archive | EAP  |
-| ------------- |:-------------:|:-------------:|  -----:|
+|-------------|:-------------:|:-------------:|:-------------:|
 | [![Product](https://img.shields.io/static/v1?label=Atlassian&message=Bamboo&color=bright%20green&style=for-the-badge)](https://www.atlassian.com/software/bamboo) | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [![Product](https://img.shields.io/static/v1?label=Atlassian&message=Bitbucket%20(Stash)&color=bright%20green&style=for-the-badge)](https://www.atlassian.com/software/bitbucket) | :white_check_mark: | :white_check_mark: | :interrobang: |
 | [![Product](https://img.shields.io/static/v1?label=Atlassian&message=Clover&color=bright%20green&style=for-the-badge)](https://www.atlassian.com/software/clover) | :white_check_mark: | :white_check_mark: | :x: |
