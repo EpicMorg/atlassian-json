@@ -45,16 +45,16 @@ jobs:
           commit_message: Atlassian JSON updated
           commit_prefix: "[AUTO-COMMIT]"
 
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GHT }}
-        with:
-          tag_name: ${{ env.RELEASE_DATE }}
-          release_name: Release ${{ env.RELEASE_DATE }}
-          body: |
-            Changes in this Release
-            - Atlassian JSON updated ${{ env.RELEASE_DATE }}
-          draft: false
-          prerelease: false
+ #     - name: Create Release
+ #       id: create_release
+ #       uses: actions/create-release@v1
+ #       env:
+ #         GITHUB_TOKEN: ${{ secrets.GHT }}
+ #       with:
+ #         tag_name: ${{ env.RELEASE_DATE }}
+ #         release_name: Release ${{ env.RELEASE_DATE }}
+ #         body: |
+ #           Changes in this Release
+ #           - Atlassian JSON updated ${{ env.RELEASE_DATE }}
+ #         draft: false
+ #         prerelease: false
