@@ -2,7 +2,7 @@
 
 # Atlassian JSON
 
-Backup archive of `Atlassian` jsons.
+Backup archive of `Atlassian` jsons. `Atlassian Downloader` available [here](https://github.com/EpicMorg/atlassian-downloader).
 
 ## Supported products:
 
