@@ -51,8 +51,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GHT }}
         with:
-          tag_name: ${{ env.MY_DATE }}
-          release_name: Release ${{ env.MY_DATE }}
+          tag_name: ${{ env.RELEASE_DATE }}
+          release_name: Release ${{ env.RELEASE_DATE }}
           body: |
             Changes in this Release
             - Atlassian JSON updated ${{ env.RELEASE_DATE }}
