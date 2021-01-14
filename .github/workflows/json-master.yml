@@ -10,7 +10,7 @@ on:
     branches:
       - 'master'
   schedule:
-    - cron:  '0 0 * ? * *' # every hour
+    - cron:  '0 0-23 * * *' # every hour
 
 jobs:
   build:
@@ -19,3 +19,22 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      
+    - name: Configure git
+      run: |
+          cd /json-backups
+          ls -las
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "stamepicmorg@users.noreply.github.com"
+
+    - name: Update files
+      run: |
+          cd json-backups
+          ls -las
+          ./update.sh
+
+    - name: Push updates
+      run: |
+          git add -A
+          git commit -am "update"
+          git push
