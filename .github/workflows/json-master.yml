@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Get current date
         id: date
-        run: echo "MY_DATE=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
+        run: echo "RELEASE_DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
         
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -41,7 +41,7 @@ jobs:
       - name: Commit and push changes
         uses: devops-infra/action-commit-push@master
         with:
-          github_token: ${{ secrets.GHT }} # This token is provided by Actions, you do not need to create your own token
+          github_token: ${{ secrets.GHT }}
           commit_message: Atlassian JSON updated
           commit_prefix: "[AUTO-COMMIT]"
 
@@ -49,12 +49,12 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GHT }} # This token is provided by Actions, you do not need to create your own token
+          GITHUB_TOKEN: ${{ secrets.GHT }}
         with:
           tag_name: ${{ env.MY_DATE }}
           release_name: Release ${{ env.MY_DATE }}
           body: |
             Changes in this Release
-            - Atlassian JSON updated ${{ env.MY_DATE }}
+            - Atlassian JSON updated ${{ env.RELEASE_DATE }}
           draft: false
           prerelease: false
