@@ -13,16 +13,17 @@ on:
     - cron:  '0 0-23 * * *' # every hour
 
 jobs:
-  build:
+  update:
 
     runs-on: ubuntu-20.04
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
       
     - name: Configure git
       run: |
-          cd /json-backups
+          cd json-backups
           ls -las
           git config --global user.name "github-actions[bot]"
           git config --global user.email "stamepicmorg@users.noreply.github.com"
@@ -33,8 +34,9 @@ jobs:
           ls -las
           ./update.sh
 
-    - name: Push updates
-      run: |
-          git add -A
-          git commit -am "update"
-          git push
+    - name: Commit and push changes
+      uses: devops-infra/action-commit-push@master
+      with:
+          github_token: ${{ secrets.GHT }}
+          commit_message: Atlassian JSON updated
+          commit_prefix: "[AUTO-COMMIT]"
