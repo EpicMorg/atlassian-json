@@ -8,10 +8,8 @@ on:
       - '*'
 
 jobs:
-  update:
-
+  notify:
     runs-on: ubuntu-20.04
-
     steps:
       - name: Notify 
-        run: curl -s -X POST ${{ secrets.TLG_URL }} -d chat_id=${{ secrets.TLG_CHAT }} -d text="${{ secrets.TLG_TEXT }}" -d "parse_mode=HTML"
+        run: curl -s  --data-urlencode -X POST ${{ secrets.TLG_URL }} -d chat_id=${{ secrets.TLG_CHAT }} -d text="${{ secrets.TLG_TEXT }}" -d "parse_mode=HTML"
