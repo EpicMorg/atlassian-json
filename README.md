@@ -18,7 +18,7 @@ Backup archive of `Atlassian` jsons. `Atlassian Downloader` available [here](htt
 | [![Product](https://img.shields.io/static/v1?label=Atlassian&message=Jira%20Core&color=bright%20green&style=for-the-badge)](https://www.atlassian.com/software/jira/core) | :white_check_mark: | :white_check_mark: | :x: |
 | [![Product](https://img.shields.io/static/v1?label=Atlassian&message=Jira%20Software&color=bright%20green&style=for-the-badge)](https://www.atlassian.com/software/jira) | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [![Product](https://img.shields.io/static/v1?label=Atlassian&message=Jira%20Servicedesk&color=bright%20green&style=for-the-badge)](https://www.atlassian.com/software/jira/service-management) | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [![Product](https://img.shields.io/static/v1?label=Atlassian&message=SourceTree&color=yellow&style=for-the-badge)](https://www.atlassian.com/software/sourcetree) | :x: | :x: | :x: |
+| [![Product](https://img.shields.io/static/v1?label=Atlassian&message=SourceTree&color=bright%20green&style=for-the-badge)](https://www.atlassian.com/software/sourcetree) | :white_check_mark: | :white_check_mark: | :x: |
 
 
 ### Current links
