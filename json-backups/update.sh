@@ -1,4 +1,7 @@
 #!/bin/bash
+export DOTNET_CLI_TELEMETRY_OPTOUT=true
+export DOTNET_SKIP_FIRST_TIME_EXPERIENCE=true
+
 rm -rfv $PWD/current $PWD/archived $PWD/eap
 mkdir -p $PWD/current $PWD/archived $PWD/eap
 
@@ -33,7 +36,9 @@ wget -c -nv --random-wait -P $PWD/current/ https://my.atlassian.com/download/fee
 wget -c -nv --random-wait -P $PWD/current/ https://my.atlassian.com/download/feeds/current/jira-servicedesk.json
 
 # SourceTree
-dotnet script sourcetreeapp-archive.csx > $PWD/current/sourcetree.json
+dotnet script $PWD/sourcetreeapp-archive.csx
+touch $PWD/current/sourcetree.json
+dotnet script $PWD/sourcetreeapp-archive.csx > $PWD/current/sourcetree.json
 
 ###################################################################################################
 # Archived links
@@ -64,7 +69,9 @@ wget -c -nv --random-wait -P $PWD/archived/ https://my.atlassian.com/download/fe
 wget -c -nv --random-wait -P $PWD/archived/ https://my.atlassian.com/download/feeds/archived/jira-servicedesk.json
 
 # SourceTree
-dotnet script sourcetreeapp-archive.csx > $PWD/archived/sourcetree.json
+dotnet script $PWD/sourcetreeapp-archive.csx
+touch $PWD/archived/sourcetree.json
+dotnet script $PWD/sourcetreeapp-archive.csx > $PWD/archived/sourcetree.json
 
 ###################################################################################################
 # EAP links
