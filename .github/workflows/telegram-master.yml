@@ -2,10 +2,8 @@ name: telegram-notifier
 
 on:
   push:
-    branches:
-      - 'master'
-    tags:
-      - '*'
+    paths:
+    - '**.json'
 
 jobs:
   notify:
