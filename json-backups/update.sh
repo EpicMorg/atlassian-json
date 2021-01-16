@@ -36,9 +36,12 @@ wget -c -nv --random-wait -P $PWD/current/ https://my.atlassian.com/download/fee
 wget -c -nv --random-wait -P $PWD/current/ https://my.atlassian.com/download/feeds/current/jira-servicedesk.json
 
 # SourceTree
-dotnet script $PWD/sourcetreeapp-archive.csx
+echo "Generating sourcetree.json for current release"
+echo "-----------------------------------------------"
+dotnet script $PWD/sourcetreeapp.csx
+echo "-----------------------------------------------"
 touch $PWD/current/sourcetree.json
-dotnet script $PWD/sourcetreeapp-archive.csx > $PWD/current/sourcetree.json
+dotnet script $PWD/sourcetreeapp.csx > $PWD/current/sourcetree.json
 
 ###################################################################################################
 # Archived links
@@ -69,7 +72,10 @@ wget -c -nv --random-wait -P $PWD/archived/ https://my.atlassian.com/download/fe
 wget -c -nv --random-wait -P $PWD/archived/ https://my.atlassian.com/download/feeds/archived/jira-servicedesk.json
 
 # SourceTree
+echo "Generating sourcetree.json for arvhive release"
+echo "-----------------------------------------------"
 dotnet script $PWD/sourcetreeapp-archive.csx
+echo "-----------------------------------------------"
 touch $PWD/archived/sourcetree.json
 dotnet script $PWD/sourcetreeapp-archive.csx > $PWD/archived/sourcetree.json
 
