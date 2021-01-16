@@ -43,13 +43,13 @@ jobs:
           cd ..
           git add .
           git commit -am "Atlassian JSON autoupdated"
-          git push
+#          git push
 
- #     - name: Commit and push changes
- #       uses: devops-infra/action-commit-push@master
- #       with:
- #         github_token: ${{ secrets.GHT }}
- #         commit_message: Atlassian JSON updated
+      - name: Commit and push changes
+        uses: devops-infra/action-commit-push@master
+        with:
+          github_token: ${{ secrets.GHT }}
+          commit_message: Atlassian JSON updated
 
  #     - name: Create Release
  #       id: create_release
