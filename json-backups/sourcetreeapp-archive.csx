@@ -3,7 +3,7 @@
 using System.Linq;
 
 System.Console.Out.WriteLine(
-    "download(" + System.Text.Json.JsonSerializer.Serialize(
+    "downloads(" + System.Text.Json.JsonSerializer.Serialize(
             new AngleSharp.Html.Parser.HtmlParser()
                 .ParseDocument(
                     await new System.Net.Http.HttpClient()
