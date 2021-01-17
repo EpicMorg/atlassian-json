@@ -42,7 +42,7 @@ jobs:
           ./update.sh
           cd ..
       - name: Commit changes
-      - uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Atlassian JSON Autoupdated
           commit_user_name: stamepicmorg # defaults to "GitHub Actions"
