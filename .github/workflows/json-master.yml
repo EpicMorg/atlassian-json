@@ -41,10 +41,19 @@ jobs:
           ls -las
           ./update.sh
           cd ..
-          git add .
-          git commit -am "Atlassian JSON autoupdated"
-          git push
-          exit 0
+          
+      - name: "Run if changes have been detected"
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        run: echo "Changes!"
+
+      - name: "Run if no changes have been detected"
+        if: steps.auto-commit-action.outputs.changes_detected == 'false'
+        run: echo "No Changes!"
+          
+#          git add .
+#          git commit -am "Atlassian JSON autoupdated"
+#          git push
+#          exit 0
  #    - name: Commit and push changes
  #      uses: devops-infra/action-commit-push@master
  #      with:
