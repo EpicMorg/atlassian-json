@@ -1,9 +1,6 @@
 name: telegram-notifier
 
-on:
-  push:
-    paths:
-    - '**.json'
+on: [ push ]
 
 jobs:
   notify:
