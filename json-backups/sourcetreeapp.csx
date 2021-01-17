@@ -19,7 +19,7 @@ var (a, b, c) = json.Params;
 var urls = new[] { a, b, c };
 
 Console.Out.WriteLine(
-    "download(" +
+    "downloads(" +
     JsonSerializer.Serialize(
     urls
         .Select(a => new Uri(a))
