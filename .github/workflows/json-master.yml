@@ -41,6 +41,15 @@ jobs:
           ls -las
           ./update.sh
           cd ..
+          
+      - name: "Run if changes have been detected"
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        run: echo "Changes!"
+
+      - name: "Run if no changes have been detected"
+        if: steps.auto-commit-action.outputs.changes_detected == 'false'
+        run: echo "No Changes!"
+          
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
@@ -48,7 +57,4 @@ jobs:
           commit_user_name: stamepicmorg # defaults to "GitHub Actions"
           commit_user_email: stamepicmorg@users.noreply.github.com # defaults to "actions@github.com"
           commit_author: stamepicmorg <stamepicmorg@users.noreply.github.com> # defaults to author of the commit that triggered the run
-        if: steps.auto-commit-action.outputs.changes_detected == 'false'
-        run: echo "No Changes!"
-        if: steps.auto-commit-action.outputs.changes_detected == 'true'
-        run: echo "Changes!"
+
