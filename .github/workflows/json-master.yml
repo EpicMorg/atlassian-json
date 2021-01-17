@@ -42,11 +42,34 @@ jobs:
           ./update.sh
           cd ..
           
-      - name: "Run if changes have been detected"
+      - name: "Notify if changes have been detected"
         if: steps.commit.outputs.changes_detected == true
-        run: echo "Changes!"
+        run: |
+          echo "Changes! Notify!"
+          curl -s  --data-urlencode -X POST ${{ secrets.TLG_URL }} -d chat_id=${{ secrets.TLG_CHAT }} -d text="${{ secrets.TLG_TEXT }}" -d "parse_mode=HTML" >> /dev/null
 
-      - name: "Run if no changes have been detected"
+      - name: "Tag new version if changes have been detected"
+        if: steps.commit.outputs.changes_detected == true
+        id: "tag"
+        uses: "anothrNick/github-tag-action@1.30.0"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GHT }}
+          WITH_V: false
+          RELEASE_BRANCHES: main
+          DEFAULT_BUMP: patch
+
+      - name: "Create release if changes have been detected"
+        if: steps.commit.outputs.changes_detected == true
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GHT }}
+        with:
+          tag_name: ${{ steps.tag.outputs.new_tag }}
+          release_name: ${{ steps.tag.outputs.new_tag }}
+          commitish: main
+          body: "Update stubs"
+
+      - name: "Do nothing if no changes have been detected"
         if: steps.commit.outputs.changes_detected == false
         run: echo "No Changes!"
           
