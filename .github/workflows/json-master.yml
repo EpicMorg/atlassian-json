@@ -18,10 +18,7 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-#      - name: Get current date
-#        id: date
-#        run: echo "RELEASE_DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
-        
+     
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
@@ -44,7 +41,7 @@ jobs:
           ./update.sh
           cd ..
 
-#      - name: Commit changes
+      - name: Commit changes
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Atlassian JSON Autoupdated
@@ -53,13 +50,13 @@ jobs:
           commit_author: stamepicmorg <stamepicmorg@users.noreply.github.com> # defaults to author of the commit that triggered the run
 
       - name: "Notify if changes have been detected"
-        if: steps.auto-commit-action.outputs.changes_detected == true
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
         run: |
           echo "Changes! Notify!"
           curl -s  --data-urlencode -X POST ${{ secrets.TLG_URL }} -d chat_id=${{ secrets.TLG_CHAT }} -d text="${{ secrets.TLG_TEXT }}" -d "parse_mode=HTML" >> /dev/null
 
       - name: "Tag new version if changes have been detected"
-        if: steps.auto-commit-action.outputs.changes_detected == true
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
         id: "tag"
         uses: "anothrNick/github-tag-action@1.30.0"
         env:
@@ -69,7 +66,7 @@ jobs:
           DEFAULT_BUMP: patch
 
       - name: "Create release if changes have been detected"
-        if: steps.auto-commit-action.outputs.changes_detected == true
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GHT }}
@@ -80,6 +77,6 @@ jobs:
           body: "Update stubs"
 
       - name: "Do nothing if no changes have been detected"
-        if: steps.auto-commit-action.outputs.changes_detected == false
+        if: steps.auto-commit-action.outputs.changes_detected == 'false'
         run: echo "No Changes!"
 
