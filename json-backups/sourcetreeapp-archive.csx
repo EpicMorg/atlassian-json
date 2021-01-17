@@ -9,7 +9,7 @@ System.Console.Out.WriteLine(
                     await new System.Net.Http.HttpClient()
                         .GetStringAsync("https://www.sourcetreeapp.com/download-archives")
                         .ConfigureAwait(false))
-            .QuerySelectorAll(".wpl tr a")
+            .QuerySelectorAll(".wpl tr div>a")
             .Select(row => new { Version = row.TextContent, ZipUrl = row.GetAttribute("href") })
             .ToArray()) + ")"
 );
