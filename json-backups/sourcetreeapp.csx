@@ -25,7 +25,7 @@ Console.Out.WriteLine(
         .Select(a => new Uri(a))
         .Select(a => new
         {
-            ZipFile = a.ToString(),
+            ZipUrl = a.ToString(),
             Version = new[] { "sourcetree", "enterprise", "setup", }
                 .Aggregate(Path.GetFileNameWithoutExtension(a.AbsolutePath), (s, ptr) => s.Replace(ptr, "", StringComparison.OrdinalIgnoreCase))
                 .TrimStart('-', '_')
