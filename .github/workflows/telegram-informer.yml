@@ -3,7 +3,7 @@ name: telegram-informer
 on: push
 
 jobs:
-  update:
+  inform:
 
     runs-on: ubuntu-20.04
 
