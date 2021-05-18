@@ -1,0 +1,15 @@
+name: telegram-informer
+
+on: push
+
+jobs:
+  update:
+
+    runs-on: ubuntu-20.04
+
+    steps:
+     
+      - name: Configure git
+        run: |
+          echo "Changes! Notify!"
+          curl -s  --data-urlencode -X POST ${{ secrets.TLG_URL }} -d chat_id=${{ secrets.TLG_CHAT }} -d text="${{ secrets.TLG_TEXT }}" -d "parse_mode=HTML" >> /dev/null
