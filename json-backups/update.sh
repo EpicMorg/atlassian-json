@@ -17,6 +17,9 @@ wget -c -nv --random-wait -P $PWD/current/ https://my.atlassian.com/download/fee
 # Bitbucket (Stash)
 wget -c -nv --random-wait -P $PWD/current/ https://my.atlassian.com/download/feeds/current/stash.json
 
+# Bitbucket (Mesh)
+wget -c -nv --random-wait -P $PWD/current/ https://my.atlassian.com/download/feeds/current/mesh.json
+
 # Confluence
 wget -c -nv --random-wait -P $PWD/current/ https://my.atlassian.com/download/feeds/current/confluence.json
 
@@ -53,6 +56,9 @@ wget -c -nv --random-wait -P $PWD/archived/ https://my.atlassian.com/download/fe
 
 # Bitbucket (Stash)
 wget -c -nv --random-wait -P $PWD/archived/ https://my.atlassian.com/download/feeds/archived/stash.json
+
+# Bitbucket (Mesh)
+wget -c -nv --random-wait -P $PWD/archived/ https://my.atlassian.com/download/feeds/archived/mesh.json
 
 # Confluence
 wget -c -nv --random-wait -P $PWD/archived/ https://my.atlassian.com/download/feeds/archived/confluence.json
