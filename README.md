@@ -10,6 +10,7 @@ Backup archive of `Atlassian` jsons. `Atlassian Downloader` available [here](htt
 |-------------|:-------------:|:-------------:|:-------------:|
 | [![Product](https://img.shields.io/static/v1?label=Atlassian&message=Bamboo&color=bright%20green&style=for-the-badge)](https://www.atlassian.com/software/bamboo) | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [![Product](https://img.shields.io/static/v1?label=Atlassian&message=Bitbucket%20(Stash)&color=bright%20green&style=for-the-badge)](https://www.atlassian.com/software/bitbucket) | :white_check_mark: | :white_check_mark: | :interrobang: |
+| [![Product](https://img.shields.io/static/v1?label=Atlassian&message=Bitbucket%20(Mesh)&color=bright%20green&style=for-the-badge)](https://confluence.atlassian.com/bitbucketserver/bitbucket-mesh-compatibility-matrix-1127254859.html) | :white_check_mark: | :white_check_mark: | :interrobang: |
 | [![Product](https://img.shields.io/static/v1?label=Atlassian&message=Clover&color=bright%20green&style=for-the-badge)](https://www.atlassian.com/software/clover) | :white_check_mark: | :white_check_mark: | :x: |
 | [![Product](https://img.shields.io/static/v1?label=Atlassian&message=Confluence&color=bright%20green&style=for-the-badge)](https://www.atlassian.com/software/confluence) | :white_check_mark: | :white_check_mark: | :x: |
 | [![Product](https://img.shields.io/static/v1?label=Atlassian&message=Crowd&color=bright%20green&style=for-the-badge)](https://www.atlassian.com/software/crowd) | :white_check_mark: | :white_check_mark: | :x: |
@@ -28,6 +29,9 @@ Backup archive of `Atlassian` jsons. `Atlassian Downloader` available [here](htt
 
 #### Bitbucket (Stash)
 * https://my.atlassian.com/download/feeds/current/stash.json
+
+#### Bitbucket (Mesh)
+* https://my.atlassian.com/download/feeds/current/mesh.json
 
 #### Clover
 * https://my.atlassian.com/download/feeds/current/clover.json
@@ -58,6 +62,9 @@ Backup archive of `Atlassian` jsons. `Atlassian Downloader` available [here](htt
 #### Bitbucket (Stash)
 * https://my.atlassian.com/download/feeds/archived/stash.json
 
+#### Bitbucket (Mesh)
+* https://my.atlassian.com/download/feeds/archived/mesh.json
+
 #### Clover
 * https://my.atlassian.com/download/feeds/archived/clover.json
 
@@ -82,12 +89,16 @@ Backup archive of `Atlassian` jsons. `Atlassian Downloader` available [here](htt
 
 ### EAP links
 
-#### Bamboo
+#### Bamboo (Stash)
 * https://my.atlassian.com/download/feeds/eap/bamboo.json
 
 #### Bitbucket
 
 * https://my.atlassian.com/download/feeds/eap/stash.json
+
+#### Bitbucket (Mesh)
+
+* https://my.atlassian.com/download/feeds/eap/mesh.json
 
 #### Confluence
 * https://my.atlassian.com/download/feeds/eap/confluence.json
