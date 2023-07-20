@@ -20,6 +20,9 @@ wget -c -nv --random-wait -P $PWD/current/ https://my.atlassian.com/download/fee
 # Bitbucket (Mesh)
 wget -c -nv --random-wait -P $PWD/current/ https://my.atlassian.com/download/feeds/current/mesh.json
 
+# Clover
+wget -c -nv --random-wait -P $PWD/current/ https://my.atlassian.com/download/feeds/current/clover.json
+
 # Confluence
 wget -c -nv --random-wait -P $PWD/current/ https://my.atlassian.com/download/feeds/current/confluence.json
 
@@ -60,6 +63,9 @@ wget -c -nv --random-wait -P $PWD/archived/ https://my.atlassian.com/download/fe
 # Bitbucket (Mesh)
 wget -c -nv --random-wait -P $PWD/archived/ https://my.atlassian.com/download/feeds/archived/mesh.json
 
+# Clover
+wget -c -nv --random-wait -P $PWD/archived/ https://my.atlassian.com/download/feeds/archived/clover.json
+
 # Confluence
 wget -c -nv --random-wait -P $PWD/archived/ https://my.atlassian.com/download/feeds/archived/confluence.json
 
@@ -95,4 +101,3 @@ wget -c -nv --random-wait -P $PWD/eap/ https://my.atlassian.com/download/feeds/e
 wget -c -nv --random-wait -P $PWD/eap/ https://my.atlassian.com/download/feeds/eap/jira.json
 wget -c -nv --random-wait -P $PWD/eap/ https://my.atlassian.com/download/feeds/eap/jira-servicedesk.json
 wget -c -nv --random-wait -P $PWD/eap/ https://my.atlassian.com/download/feeds/eap/stash.json
-
