@@ -1,1 +1,69 @@
-downloads([{"description":"2.0.5 (ZIP Archive)","edition":"None","zipUrl":"https://www.atlassian.com/software/stash/downloads/binary/atlassian-bitbucket-mesh-2.0.5.zip","tarUrl":null,"md5":"601b08a1926672c5de03a27dfa81bd8b","size":"71.0 MB","released":"11-Jul-2023","type":"Binary","platform":"Mac OS X, Unix","version":"2.0.5","releaseNotes":"https://confluence.atlassian.com/bitbucketserver/bitbucket-mesh-compatibility-matrix-1127254859.html","upgradeNotes":null},{"description":"2.0.5 (TAR.GZ Archive)","edition":"None","zipUrl":"https://packages.atlassian.com/mvn/maven-external/com/atlassian/bitbucket/mesh/mesh-distribution/2.0.5/mesh-distribution-2.0.5.tar.gz","tarUrl":null,"md5":"afefa4696137e5e0337a202e220bc24f","size":"71.0 MB","released":"11-Jul-2023","type":"Binary","platform":"Mac OS X, Unix","version":"2.0.5","releaseNotes":"https://confluence.atlassian.com/bitbucketserver/bitbucket-mesh-compatibility-matrix-1127254859.html","upgradeNotes":null}])
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Error - My Atlassian</title>
+
+        <link rel="stylesheet" href="/static/css/main.css?_ts=2023-08-01_14-38_5c8df9777e">
+        <link rel="stylesheet" href="/static/rawcss/fonts.css?_ts=2023-08-01_14-38_5c8df9777e">
+        <link rel="stylesheet" href="/static/css/newmain.css?_ts=2023-08-01_14-38_5c8df9777e">
+    </head>
+    <body>
+
+    <div id="container">
+	<!-- header section -->
+	<div id="header">
+	<div class="boxNew">
+		<div id="logo"><a href="/products/index"></a></div>
+	</div><!--/.box-->
+	</div>
+    </div>
+	<!-- end header section -->
+
+	<!-- content section -->
+	<div id="content">
+	<div class="boxDefault">
+		<div class="mainContent">
+		<div class="outer">
+		<div class="inner">
+            <div class="errors">
+                <ul>
+                    <li>
+                       <p>Oops! Looks like something out the back is broken.</p>
+                        
+                            <p>Ref: 44b6ee8d-f513-47a5-95b4-265f81b1726d</p>
+                        
+                    </li>
+                </ul>
+            </div>
+            
+                <p>Sorry! An unknown error occurred while processing your request. Our engineers have been notified. Please try again, or <a href="http://www.atlassian.com/company/contact">contact us</a> for assistance.</p>
+            
+            
+        </div>
+		</div>
+		</div>
+    </div>
+	</div>
+	<!-- end content section -->
+
+    <!-- footer section -->
+    <div id="footer">
+    <div class="boxNew">
+        <div id="copyright">
+            <ul>
+                <li>
+                    Copyright &copy; 2023 Atlassian. All rights reserved &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                    <a href="http://www.atlassian.com/company/privacy">Privacy</a>
+                    &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                    <a href="http://www.atlassian.com/company/trademark">Trademark</a>
+                    &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                    v2023-08-01_14-38_5c8df9777e
+                </li>
+            </ul>
+        </div>
+    </div><!--/.box-->
+    </div>
+    <!-- end footer section -->
+
+    </body>
+</html>
