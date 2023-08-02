@@ -1,1 +1,69 @@
-downloads([{"description":"9.4.9 (Windows 64 Bit Installer)","edition":"Enterprise","zipUrl":"https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-9.4.9-x64.exe","tarUrl":null,"md5":"e5a1f5b591f62207175a3bb328fd314d","size":"449.3 MB","released":"31-Jul-2023","type":"Binary","platform":"Windows","version":"9.4.9","releaseNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.4.x+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.4.x+upgrade+notes"},{"description":"9.10.0 (Windows 64 Bit Installer)","edition":"Standard","zipUrl":"https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-9.10.0-x64.exe","tarUrl":null,"md5":"6b782197811a8c9e392b40834831afe0","size":"478.2 MB","released":"11-Jul-2023","type":"Binary","platform":"Windows","version":"9.10.0","releaseNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.10.x+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.10.x+upgrade+notes"},{"description":"8.20.25 (Windows 64 Bit Installer)","edition":"Enterprise","zipUrl":"https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-8.20.25-x64.exe","tarUrl":null,"md5":"efc7d21ec605cf77730640e1088be7c3","size":"402.8 MB","released":"31-Jul-2023","type":"Binary","platform":"Windows","version":"8.20.25","releaseNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+8.20.x+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+8.20.x+upgrade+notes"},{"description":"9.4.9 (Linux 64 Bit Installer)","edition":"Enterprise","zipUrl":"https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-9.4.9-x64.bin","tarUrl":null,"md5":"9e21e4e2811f4cc974d7952d27d7f404","size":"445.3 MB","released":"31-Jul-2023","type":"Binary","platform":"Unix","version":"9.4.9","releaseNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.4.x+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.4.x+upgrade+notes"},{"description":"9.10.0 (Linux 64 Bit Installer)","edition":"Standard","zipUrl":"https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-9.10.0-x64.bin","tarUrl":null,"md5":"d84c4679345f7ea1712c6fc76ebfbcef","size":"474.1 MB","released":"11-Jul-2023","type":"Binary","platform":"Unix","version":"9.10.0","releaseNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.10.x+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.10.x+upgrade+notes"},{"description":"8.20.25 (Linux 64 Bit Installer)","edition":"Enterprise","zipUrl":"https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-8.20.25-x64.bin","tarUrl":null,"md5":"53e7ae866ad0494d554f27d3575974af","size":"398.8 MB","released":"31-Jul-2023","type":"Binary","platform":"Unix","version":"8.20.25","releaseNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+8.20.x+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+8.20.x+upgrade+notes"},{"description":"9.4.9 (ZIP Archive)","edition":"Enterprise","zipUrl":"https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-9.4.9.zip","tarUrl":null,"md5":"b408c2f0b345c6098ac15e3dbd655eba","size":"403.3 MB","released":"31-Jul-2023","type":"Binary","platform":"Windows","version":"9.4.9","releaseNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.4.x+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.4.x+upgrade+notes"},{"description":"9.10.0 (ZIP Archive)","edition":"Standard","zipUrl":"https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-9.10.0.zip","tarUrl":null,"md5":"8f272b1f712987c7897fbc1c96f197fe","size":"432.2 MB","released":"11-Jul-2023","type":"Binary","platform":"Windows","version":"9.10.0","releaseNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.10.x+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.10.x+upgrade+notes"},{"description":"8.20.25 (ZIP Archive)","edition":"Enterprise","zipUrl":"https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-8.20.25.zip","tarUrl":null,"md5":"4ad2d21485f04ba8e4b79f5bda7d8971","size":"356.9 MB","released":"31-Jul-2023","type":"Binary","platform":"Windows","version":"8.20.25","releaseNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+8.20.x+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+8.20.x+upgrade+notes"},{"description":"9.4.9 (TAR.GZ Archive)","edition":"Enterprise","zipUrl":"https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-9.4.9.tar.gz","tarUrl":null,"md5":"b21e90326d5bf7663c1f7ce840f2ac81","size":"392.4 MB","released":"31-Jul-2023","type":"Binary","platform":"Mac OS X, Unix","version":"9.4.9","releaseNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.4.x+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.4.x+upgrade+notes"},{"description":"9.10.0 (TAR.GZ Archive)","edition":"Standard","zipUrl":"https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-9.10.0.tar.gz","tarUrl":null,"md5":"eac915a1427b6307ce2fb5f55f5eddcc","size":"421.0 MB","released":"11-Jul-2023","type":"Binary","platform":"Mac OS X, Unix","version":"9.10.0","releaseNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.10.x+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.10.x+upgrade+notes"},{"description":"8.20.25 (TAR.GZ Archive)","edition":"Enterprise","zipUrl":"https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-8.20.25.tar.gz","tarUrl":null,"md5":"91b5ef1ab699b95c5a5dbd575defbe4c","size":"346.1 MB","released":"31-Jul-2023","type":"Binary","platform":"Mac OS X, Unix","version":"8.20.25","releaseNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+8.20.x+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+8.20.x+upgrade+notes"}])
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Error - My Atlassian</title>
+
+        <link rel="stylesheet" href="/static/css/main.css?_ts=2023-08-01_14-38_5c8df9777e">
+        <link rel="stylesheet" href="/static/rawcss/fonts.css?_ts=2023-08-01_14-38_5c8df9777e">
+        <link rel="stylesheet" href="/static/css/newmain.css?_ts=2023-08-01_14-38_5c8df9777e">
+    </head>
+    <body>
+
+    <div id="container">
+	<!-- header section -->
+	<div id="header">
+	<div class="boxNew">
+		<div id="logo"><a href="/products/index"></a></div>
+	</div><!--/.box-->
+	</div>
+    </div>
+	<!-- end header section -->
+
+	<!-- content section -->
+	<div id="content">
+	<div class="boxDefault">
+		<div class="mainContent">
+		<div class="outer">
+		<div class="inner">
+            <div class="errors">
+                <ul>
+                    <li>
+                       <p>Oops! Looks like something out the back is broken.</p>
+                        
+                            <p>Ref: 075867ca-ef5d-4fc9-a151-23830a3cf217</p>
+                        
+                    </li>
+                </ul>
+            </div>
+            
+                <p>Sorry! An unknown error occurred while processing your request. Our engineers have been notified. Please try again, or <a href="http://www.atlassian.com/company/contact">contact us</a> for assistance.</p>
+            
+            
+        </div>
+		</div>
+		</div>
+    </div>
+	</div>
+	<!-- end content section -->
+
+    <!-- footer section -->
+    <div id="footer">
+    <div class="boxNew">
+        <div id="copyright">
+            <ul>
+                <li>
+                    Copyright &copy; 2023 Atlassian. All rights reserved &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                    <a href="http://www.atlassian.com/company/privacy">Privacy</a>
+                    &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                    <a href="http://www.atlassian.com/company/trademark">Trademark</a>
+                    &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                    v2023-08-01_14-38_5c8df9777e
+                </li>
+            </ul>
+        </div>
+    </div><!--/.box-->
+    </div>
+    <!-- end footer section -->
+
+    </body>
+</html>
