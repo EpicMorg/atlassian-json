@@ -1,1 +1,69 @@
-downloads([{"description":"9.16.0 (Windows 64 Bit Installer)","edition":"Standard","zipUrl":"https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-9.16.0-x64.exe","tarUrl":null,"md5":"25420c520d5a12fd17d6052f4afd931d","size":"543.4 MB","released":"23-May-2024","type":"Binary","platform":"Windows","version":"9.16.0","releaseNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.16.x+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.16.x+upgrade+notes"},{"description":"9.16.0 (Linux 64 Bit Installer)","edition":"Standard","zipUrl":"https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-9.16.0-x64.bin","tarUrl":null,"md5":"71854d812b150ee02944b9678e645fcc","size":"541.9 MB","released":"23-May-2024","type":"Binary","platform":"Unix","version":"9.16.0","releaseNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.16.x+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.16.x+upgrade+notes"},{"description":"9.16.0 (ZIP Archive)","edition":"Standard","zipUrl":"https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-9.16.0.zip","tarUrl":null,"md5":"e31da6407e13bc90419849c22a56263e","size":"495.2 MB","released":"23-May-2024","type":"Binary","platform":"Windows","version":"9.16.0","releaseNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.16.x+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.16.x+upgrade+notes"},{"description":"9.16.0 (TAR.GZ Archive)","edition":"Standard","zipUrl":"https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-9.16.0.tar.gz","tarUrl":null,"md5":"a9023005fa526da1b39650b14fef9cd3","size":"483.9 MB","released":"23-May-2024","type":"Binary","platform":"Mac OS X, Unix","version":"9.16.0","releaseNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.16.x+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/JIRACORE/JIRA+Core+9.16.x+upgrade+notes"}])
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Error - My Atlassian</title>
+
+        <link rel="stylesheet" href="/static/css/main.css?_ts=2024-06-04_07-11_f778601315">
+        <link rel="stylesheet" href="/static/rawcss/fonts.css?_ts=2024-06-04_07-11_f778601315">
+        <link rel="stylesheet" href="/static/css/newmain.css?_ts=2024-06-04_07-11_f778601315">
+    </head>
+    <body>
+
+    <div id="container">
+	<!-- header section -->
+	<div id="header">
+	<div class="boxNew">
+		<div id="logo"><a href="/products/index"></a></div>
+	</div><!--/.box-->
+	</div>
+    </div>
+	<!-- end header section -->
+
+	<!-- content section -->
+	<div id="content">
+	<div class="boxDefault">
+		<div class="mainContent">
+		<div class="outer">
+		<div class="inner">
+            <div class="errors">
+                <ul>
+                    <li>
+                       <p>Oops! Looks like something out the back is broken.</p>
+                        
+                            <p>Ref: dec77d05-30dc-4a5e-b6b0-96eb0648ba86</p>
+                        
+                    </li>
+                </ul>
+            </div>
+            
+                <p>Sorry! An unknown error occurred while processing your request. Our engineers have been notified. Please try again, or <a href="http://www.atlassian.com/company/contact">contact us</a> for assistance.</p>
+            
+            
+        </div>
+		</div>
+		</div>
+    </div>
+	</div>
+	<!-- end content section -->
+
+    <!-- footer section -->
+    <div id="footer">
+    <div class="boxNew">
+        <div id="copyright">
+            <ul>
+                <li>
+                    Copyright &copy; 2024 Atlassian. All rights reserved &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                    <a href="http://www.atlassian.com/company/privacy">Privacy</a>
+                    &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                    <a href="http://www.atlassian.com/company/trademark">Trademark</a>
+                    &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                    v2024-06-04_07-11_f778601315
+                </li>
+            </ul>
+        </div>
+    </div><!--/.box-->
+    </div>
+    <!-- end footer section -->
+
+    </body>
+</html>

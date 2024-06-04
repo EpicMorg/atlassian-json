@@ -1,1 +1,69 @@
-downloads([{"description":"9.0.0-eap04 (Linux 64bit Installer)","edition":"","zipUrl":"https://www.atlassian.com/software/stash/downloads/binary/atlassian-bitbucket-9.0.0-eap04-x64.bin","tarUrl":null,"md5":"d0c633866ed21fce6c09ef9d9273fb46","size":"576.1 MB","released":"30-May-2024","type":"EAP","platform":"Unix","version":"9.0.0-eap04","releaseNotes":"https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Data+Center+9.0+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+upgrade+guide"},{"description":"9.0.0-eap04 (TAR.GZ Archive)","edition":"","zipUrl":"https://www.atlassian.com/software/stash/downloads/binary/atlassian-bitbucket-9.0.0-eap04.tar.gz","tarUrl":null,"md5":"e6154942361a2e6bd4f35ff1415bdf49","size":"514.5 MB","released":"30-May-2024","type":"EAP","platform":"Mac OS X, Unix, Windows","version":"9.0.0-eap04","releaseNotes":"https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Data+Center+9.0+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+upgrade+guide"},{"description":"9.0.0-eap04 (ZIP Archive)","edition":"","zipUrl":"https://www.atlassian.com/software/stash/downloads/binary/atlassian-bitbucket-9.0.0-eap04.zip","tarUrl":null,"md5":"3ec49f5c5989f38e79ba1019ae3bfba4","size":"520.2 MB","released":"30-May-2024","type":"EAP","platform":"Mac OS X, Unix, Windows","version":"9.0.0-eap04","releaseNotes":"https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Data+Center+9.0+release+notes","upgradeNotes":"https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+upgrade+guide"}])
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Error - My Atlassian</title>
+
+        <link rel="stylesheet" href="/static/css/main.css?_ts=2024-06-04_07-11_f778601315">
+        <link rel="stylesheet" href="/static/rawcss/fonts.css?_ts=2024-06-04_07-11_f778601315">
+        <link rel="stylesheet" href="/static/css/newmain.css?_ts=2024-06-04_07-11_f778601315">
+    </head>
+    <body>
+
+    <div id="container">
+	<!-- header section -->
+	<div id="header">
+	<div class="boxNew">
+		<div id="logo"><a href="/products/index"></a></div>
+	</div><!--/.box-->
+	</div>
+    </div>
+	<!-- end header section -->
+
+	<!-- content section -->
+	<div id="content">
+	<div class="boxDefault">
+		<div class="mainContent">
+		<div class="outer">
+		<div class="inner">
+            <div class="errors">
+                <ul>
+                    <li>
+                       <p>Oops! Looks like something out the back is broken.</p>
+                        
+                            <p>Ref: 1b975761-8e2e-4646-b365-f9e5b7bbd327</p>
+                        
+                    </li>
+                </ul>
+            </div>
+            
+                <p>Sorry! An unknown error occurred while processing your request. Our engineers have been notified. Please try again, or <a href="http://www.atlassian.com/company/contact">contact us</a> for assistance.</p>
+            
+            
+        </div>
+		</div>
+		</div>
+    </div>
+	</div>
+	<!-- end content section -->
+
+    <!-- footer section -->
+    <div id="footer">
+    <div class="boxNew">
+        <div id="copyright">
+            <ul>
+                <li>
+                    Copyright &copy; 2024 Atlassian. All rights reserved &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                    <a href="http://www.atlassian.com/company/privacy">Privacy</a>
+                    &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                    <a href="http://www.atlassian.com/company/trademark">Trademark</a>
+                    &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                    v2024-06-04_07-11_f778601315
+                </li>
+            </ul>
+        </div>
+    </div><!--/.box-->
+    </div>
+    <!-- end footer section -->
+
+    </body>
+</html>
