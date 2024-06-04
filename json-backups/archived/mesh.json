@@ -3,9 +3,9 @@
     <head>
         <title>Error - My Atlassian</title>
 
-        <link rel="stylesheet" href="/static/css/main.css?_ts=2024-06-04_07-11_f778601315">
-        <link rel="stylesheet" href="/static/rawcss/fonts.css?_ts=2024-06-04_07-11_f778601315">
-        <link rel="stylesheet" href="/static/css/newmain.css?_ts=2024-06-04_07-11_f778601315">
+        <link rel="stylesheet" href="/static/css/main.css?_ts=2024-06-04_09-32_4c38310c44">
+        <link rel="stylesheet" href="/static/rawcss/fonts.css?_ts=2024-06-04_09-32_4c38310c44">
+        <link rel="stylesheet" href="/static/css/newmain.css?_ts=2024-06-04_09-32_4c38310c44">
     </head>
     <body>
 
@@ -30,7 +30,7 @@
                     <li>
                        <p>Oops! Looks like something out the back is broken.</p>
                         
-                            <p>Ref: bcfbb070-3f2d-4873-8e46-843c4bc1725f</p>
+                            <p>Ref: 746045c5-ca08-4472-9633-01b102d82507</p>
                         
                     </li>
                 </ul>
@@ -57,7 +57,7 @@
                     &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
                     <a href="http://www.atlassian.com/company/trademark">Trademark</a>
                     &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-                    v2024-06-04_07-11_f778601315
+                    v2024-06-04_09-32_4c38310c44
                 </li>
             </ul>
         </div>
