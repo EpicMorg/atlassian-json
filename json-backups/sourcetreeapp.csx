@@ -3,15 +3,22 @@
 using System;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Text.Json;
+using System.Threading.Tasks;
 
-var source = await new System.Net.Http.HttpClient()
+const string userAgent = "YourCustomUserAgent/1.0";
+
+var client = new HttpClient();
+client.DefaultRequestHeaders.UserAgent.ParseAdd(userAgent);
+
+var source = await client
     .GetStringAsync("https://www.sourcetreeapp.com")
     .ConfigureAwait(false);
 
 var (startText, endText) = ("{ \"type\":\"imkt.components.SourcetreeDownload\"", "</scri");
-var startIndex = source.IndexOf(startText, System.StringComparison.Ordinal);
-var endIndex = source.IndexOf(endText, startIndex, System.StringComparison.Ordinal);
+var startIndex = source.IndexOf(startText, StringComparison.Ordinal);
+var endIndex = source.IndexOf(endText, startIndex, StringComparison.Ordinal);
 source = source[startIndex..endIndex];
 
 var json = JsonSerializer.Deserialize<Wrap>(source, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
@@ -26,11 +33,11 @@ Console.Out.WriteLine(
         .Select(a => new
         {
             ZipUrl = a.ToString(),
-            Version = new[] { "sourcetree", "enterprise", "setup", }
+            Version = new[] { "sourcetree", "enterprise", "setup" }
                 .Aggregate(Path.GetFileNameWithoutExtension(a.AbsolutePath), (s, ptr) => s.Replace(ptr, "", StringComparison.OrdinalIgnoreCase))
                 .TrimStart('-', '_')
         })
-        .ToArray())+ ")");
+        .ToArray()) + ")");
 
 public record Wrap(Params Params);
 public record Params(string MacUrl, string WindowsUrl, string EnterpriseUrl);
