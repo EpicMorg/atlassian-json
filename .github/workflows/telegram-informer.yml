@@ -1,11 +1,20 @@
 name: telegram-informer
 
-on: push
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - '*'
+    tags:
+      - '*'
+  push:
+    branches:
+      - 'master'
 
 jobs:
   inform:
 
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
 
     steps:
      
