@@ -1,1 +1,1478 @@
-downloads([])
+[
+  {
+    "description": "4.2.9_267 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.9_267.zip",
+    "version": "4.2.9_267",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.8_265 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.8_265.zip",
+    "version": "4.2.8_265",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.7_263 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.7_263.zip",
+    "version": "4.2.7_263",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.6_261 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.6_261.zip",
+    "version": "4.2.6_261",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.5_259 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.5_259.zip",
+    "version": "4.2.5_259",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.4_254 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.4_254.zip",
+    "version": "4.2.4_254",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.3_252 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.3_252.zip",
+    "version": "4.2.3_252",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.2_250 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.2_250.zip",
+    "version": "4.2.2_250",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.1_248 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.1_248.zip",
+    "version": "4.2.1_248",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.19_317 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.19_317.zip",
+    "version": "4.2.19_317",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.18_313 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.18_313.zip",
+    "version": "4.2.18_313",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.17_311 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.17_311.zip",
+    "version": "4.2.17_311",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.16_307 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.16_307.zip",
+    "version": "4.2.16_307",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.15_305 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.15_305.zip",
+    "version": "4.2.15_305",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.14_297 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.14_297.zip",
+    "version": "4.2.14_297",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.13_295 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.13_295.zip",
+    "version": "4.2.13_295",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.12_275 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.12_275.zip",
+    "version": "4.2.12_275",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.11_271 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.11_271.zip",
+    "version": "4.2.11_271",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.10_269 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.10_269.zip",
+    "version": "4.2.10_269",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.2.0_246 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.0_246.zip",
+    "version": "4.2.0_246",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.1.9_245 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.1.9_245.zip",
+    "version": "4.1.9_245",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.1.8_244 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.1.8_244.zip",
+    "version": "4.1.8_244",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.1.6_242 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.1.6_242.zip",
+    "version": "4.1.6_242",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.1.5_241 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.1.5_241.zip",
+    "version": "4.1.5_241",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.1.4_240 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.1.4_240.zip",
+    "version": "4.1.4_240",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.1.3_239 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.1.3_239.zip",
+    "version": "4.1.3_239",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.1.2_238 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.1.2_238.zip",
+    "version": "4.1.2_238",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.1.1_237 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.1.1_237.zip",
+    "version": "4.1.1_237",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.1.0_237 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.1.0_237.zip",
+    "version": "4.1.0_237",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.0_232 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.0_232.zip",
+    "version": "4.0_232",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.0.2_236 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.0.2_236.zip",
+    "version": "4.0.2_236",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "4.0.1_234 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.0.1_234.zip",
+    "version": "4.0.1_234",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.9 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.9.exe",
+    "version": "3.4.9",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.9 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.9.msi",
+    "version": "3.4.9",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.8 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.8.exe",
+    "version": "3.4.8",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.8 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.8.msi",
+    "version": "3.4.8",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.7 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.7.exe",
+    "version": "3.4.7",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.7 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.7.msi",
+    "version": "3.4.7",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.6 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.6.exe",
+    "version": "3.4.6",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.6 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.6.msi",
+    "version": "3.4.6",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.5 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.5.exe",
+    "version": "3.4.5",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.5 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.5.msi",
+    "version": "3.4.5",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.4 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.4.exe",
+    "version": "3.4.4",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.4 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.4.msi",
+    "version": "3.4.4",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.32 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.32.exe",
+    "version": "3.4.32",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.32 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.32.msi",
+    "version": "3.4.32",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.31 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.31.exe",
+    "version": "3.4.31",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.31 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.31.msi",
+    "version": "3.4.31",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.30 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.30.exe",
+    "version": "3.4.30",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.30 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.30.msi",
+    "version": "3.4.30",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.3 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.3.exe",
+    "version": "3.4.3",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.3 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.3.msi",
+    "version": "3.4.3",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.29 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.29.exe",
+    "version": "3.4.29",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.29 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.29.msi",
+    "version": "3.4.29",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.28 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.28.exe",
+    "version": "3.4.28",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.28 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.28.msi",
+    "version": "3.4.28",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.27 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.27.exe",
+    "version": "3.4.27",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.27 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.27.msi",
+    "version": "3.4.27",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.26 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.26.exe",
+    "version": "3.4.26",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.26 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.26.msi",
+    "version": "3.4.26",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.25 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.25.exe",
+    "version": "3.4.25",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.25 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.25.msi",
+    "version": "3.4.25",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.24 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.24.exe",
+    "version": "3.4.24",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.24 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.24.msi",
+    "version": "3.4.24",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.23 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.23.exe",
+    "version": "3.4.23",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.23 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.23.msi",
+    "version": "3.4.23",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.22 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.22.exe",
+    "version": "3.4.22",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.22 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.22.msi",
+    "version": "3.4.22",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.21 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.21.exe",
+    "version": "3.4.21",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.21 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.21.msi",
+    "version": "3.4.21",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.20 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.20.exe",
+    "version": "3.4.20",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.20 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.20.msi",
+    "version": "3.4.20",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.2 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.2.exe",
+    "version": "3.4.2",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.2 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.2.msi",
+    "version": "3.4.2",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.19 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.19.exe",
+    "version": "3.4.19",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.19 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.19.msi",
+    "version": "3.4.19",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.18 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.18.exe",
+    "version": "3.4.18",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.18 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.18.msi",
+    "version": "3.4.18",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.17 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.17.exe",
+    "version": "3.4.17",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.17 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.17.msi",
+    "version": "3.4.17",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.16 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.16.exe",
+    "version": "3.4.16",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.16 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.16.msi",
+    "version": "3.4.16",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.15 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.15.exe",
+    "version": "3.4.15",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.15 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.15.msi",
+    "version": "3.4.15",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.14 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.14.exe",
+    "version": "3.4.14",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.14 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.14.msi",
+    "version": "3.4.14",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.13 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.13.exe",
+    "version": "3.4.13",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.13 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.13.msi",
+    "version": "3.4.13",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.12 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.12.exe",
+    "version": "3.4.12",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.12 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.12.msi",
+    "version": "3.4.12",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.11 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.11.exe",
+    "version": "3.4.11",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.11 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.11.msi",
+    "version": "3.4.11",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.10 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.10.exe",
+    "version": "3.4.10",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.10 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.10.msi",
+    "version": "3.4.10",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.1 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.1.exe",
+    "version": "3.4.1",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.1 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.1.msi",
+    "version": "3.4.1",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.0 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.0.exe",
+    "version": "3.4.0",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.0 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.0.msi",
+    "version": "3.4.0",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.3.9 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.3.9.exe",
+    "version": "3.3.9",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.3.9 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.3.9.msi",
+    "version": "3.3.9",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.3.8 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.3.8.exe",
+    "version": "3.3.8",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.3.8 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.3.8.msi",
+    "version": "3.3.8",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.3.6 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.3.6.exe",
+    "version": "3.3.6",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.3.6 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.3.6.msi",
+    "version": "3.3.6",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.3.4 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.3.4.exe",
+    "version": "3.3.4",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.3.4 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.3.4.msi",
+    "version": "3.3.4",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.2.6 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.2.6.exe",
+    "version": "3.2.6",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.2.6 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.2.6.msi",
+    "version": "3.2.6",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.2.1_225 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_3.2.1_225.zip",
+    "version": "3.2.1_225",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.1.3 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.1.3.exe",
+    "version": "3.1.3",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.1.3 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.1.3.msi",
+    "version": "3.1.3",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.1.2_216 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_3.1.2_216.zip",
+    "version": "3.1.2_216",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.1.2 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.1.2.exe",
+    "version": "3.1.2",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.1.2 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.1.2.msi",
+    "version": "3.1.2",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.1.1_213 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_3.1.1_213.zip",
+    "version": "3.1.1_213",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.0.8 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.0.8.exe",
+    "version": "3.0.8",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.0.8 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.0.8.msi",
+    "version": "3.0.8",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.0.1_205 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_3.0.1_205.zip",
+    "version": "3.0.1_205",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.0.17 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.0.17.exe",
+    "version": "3.0.17",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.0.17 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.0.17.msi",
+    "version": "3.0.17",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.0.15 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.0.15.exe",
+    "version": "3.0.15",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.0.15 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.0.15.msi",
+    "version": "3.0.15",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.0.12 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.0.12.exe",
+    "version": "3.0.12",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.7g - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/Sourcetree_2.7g.zip",
+    "version": "2.7g",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.7.6a - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/Sourcetree_2.7.6a.zip",
+    "version": "2.7.6a",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.7.3a - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/Sourcetree_2.7.3a.zip",
+    "version": "2.7.3a",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.7.1d - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/Sourcetree_2.7.1d.zip",
+    "version": "2.7.1d",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.6.9 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-2.6.9.exe",
+    "version": "2.6.9",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.6.9 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_2.6.9.msi",
+    "version": "2.6.9",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.6.3a - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/Sourcetree_2.6.3a.zip",
+    "version": "2.6.3a",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.6.10 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-2.6.10.exe",
+    "version": "2.6.10",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.6.10 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_2.6.10.msi",
+    "version": "2.6.10",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.5.5 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-2.5.5.exe",
+    "version": "2.5.5",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.5.5 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_2.5.5.msi",
+    "version": "2.5.5",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.5.3c - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/SourceTree_2.5.3c.zip",
+    "version": "2.5.3c",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.4.8.0 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-2.4.8.0.exe",
+    "version": "2.4.8.0",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.4.7.0 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-2.4.7.0.exe",
+    "version": "2.4.7.0",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.4.1a - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/SourceTree_2.4.1a.zip",
+    "version": "2.4.1a",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.3.5.0 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-2.3.5.0.exe",
+    "version": "2.3.5.0",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.3.2 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/SourceTree_2.3.2.zip",
+    "version": "2.3.2",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.3.1.0 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-2.3.1.0.exe",
+    "version": "2.3.1.0",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.2.4.0 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-2.2.4.0.exe",
+    "version": "2.2.4.0",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.1.2.5 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-2.1.2.5.exe",
+    "version": "2.1.2.5",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.1.11.0 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-2.1.11.0.exe",
+    "version": "2.1.11.0",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.1.10.0 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-2.1.10.0.exe",
+    "version": "2.1.10.0",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.1 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/SourceTree_2.1.dmg",
+    "version": "2.1",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.0.5.8 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/SourceTree_2.0.5.8.dmg",
+    "version": "2.0.5.8",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "2.0.20.1 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-2.0.20.1.exe",
+    "version": "2.0.20.1",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "1.9.9.20 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.9.9.20.exe",
+    "version": "1.9.9.20",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "1.9.8 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/SourceTree_1.9.8.dmg",
+    "version": "1.9.8",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "1.9.6.2 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.9.6.2.exe",
+    "version": "1.9.6.2",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "1.9.13.7 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.9.13.7.exe",
+    "version": "1.9.13.7",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "1.9.10.0 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.9.10.0.exe",
+    "version": "1.9.10.0",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "1.8.3 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.8.3.exe",
+    "version": "1.8.3",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "1.7.0.32509 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.7.0.32509.exe",
+    "version": "1.7.0.32509",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "1.6.25 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.6.25.exe",
+    "version": "1.6.25",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "1.5.2 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.5.2.exe",
+    "version": "1.5.2",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "1.4.1 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.4.1.exe",
+    "version": "1.4.1",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "1.3.3 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.3.3.exe",
+    "version": "1.3.3",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "1.2.4 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.2.4.exe",
+    "version": "1.2.4",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "1.10.23.1 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-1.10.23.1.exe",
+    "version": "1.10.23.1",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "1.1.1 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.1.1.exe",
+    "version": "1.1.1",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "1.0.8 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.0.8.exe",
+    "version": "1.0.8",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "0.9.4 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_0.9.4.exe",
+    "version": "0.9.4",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "description": "4.2.19_317 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.19_317.zip",
+    "version": "4.2.19_317",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.32 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.32.exe",
+    "version": "3.4.32",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  }
+]

@@ -5,79 +5,73 @@ on:
   pull_request:
     branches:
       - '*'
-    tags:
-      - '*'
   push:
     branches:
       - 'master'
   schedule:
-    - cron:  '0 0-23 * * *' # every hour
+    - cron: '0 * * * *' # every hour
+
+permissions:
+  contents: write
+
+# The hourly schedule can overlap with a push, and two runs committing to master at once is how you
+# get a rejected push or a lost update.
+concurrency:
+  group: json-updater
+  cancel-in-progress: false
 
 jobs:
   update:
-
     runs-on: ubuntu-24.04
 
     steps:
-     
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v7
         with:
           ref: ${{ github.head_ref }}
-      
-      - name: Configure git
-        run: |
-          cd json-backups
-          ls -las
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "stamepicmorg@users.noreply.github.com"
 
-      - name: Update files
-        env:
-          DOTNET_CLI_TELEMETRY_OPTOUT: true
-          DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
-        run: |
-          cd json-backups
-          ls -las
-          ./update.sh
-          cd ..
+      # update.sh runs the SourceTree scrapers through dotnet-script. Without this the job depended
+      # on whichever .NET happened to ship in the runner image.
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: '8.0.x'
 
+      - name: Cache dotnet-script
+        uses: actions/cache@v6
+        with:
+          path: ~/.dotnet/tools
+          key: dotnet-script-${{ runner.os }}
+
+      - name: Update feeds
+        run: ./json-backups/update.sh
+
+      # always(), because update.sh exits non-zero when a feed fails while still leaving every feed
+      # that did update in place. Skipping the commit would throw those away and the next run would
+      # fetch them all over again.
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        id: commit
+        if: always()
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Atlassian JSON Autoupdated
-          commit_user_name: stamepicmorg # defaults to "GitHub Actions"
-          commit_user_email: stamepicmorg@users.noreply.github.com # defaults to "actions@github.com"
-          commit_author: stamepicmorg <stamepicmorg@users.noreply.github.com> # defaults to author of the commit that triggered the run
+          commit_user_name: stamepicmorg
+          commit_user_email: stamepicmorg@users.noreply.github.com
+          commit_author: stamepicmorg <stamepicmorg@users.noreply.github.com>
 
-#      - name: "Notify if changes have been detected"
-#        if: steps.auto-commit-action.outputs.changes_detected == 'true'
-#        run: |
-#          echo "Changes! Notify!"
-#          curl -s  --data-urlencode -X POST ${{ secrets.TLG_URL }} -d chat_id=${{ secrets.TLG_CHAT }} -d text="${{ secrets.TLG_TEXT }}" -d "parse_mode=HTML" >> /dev/null
-
-#      - name: "Tag new version if changes have been detected"
-#        if: steps.auto-commit-action.outputs.changes_detected == 'true'
-#        id: "tag"
-#        uses: "anothrNick/github-tag-action@1.30.0"
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GHT }}
-#          WITH_V: false
-#          RELEASE_BRANCHES: main
-#          DEFAULT_BUMP: patch
-
-#      - name: "Create release if changes have been detected"
-#        if: steps.auto-commit-action.outputs.changes_detected == 'true'
-#        uses: actions/create-release@v1
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GHT }}
-#        with:
-#          tag_name: ${{ steps.tag.outputs.new_tag }}
-#          release_name: ${{ steps.tag.outputs.new_tag }}
-#          commitish: main
-#          body: "Update stubs"
-
-#      - name: "Do nothing if no changes have been detected"
-#        if: steps.auto-commit-action.outputs.changes_detected == 'false'
-#        run: echo "No Changes!"
-
+      # Notifying from here rather than from a workflow listening for a push, because a push made
+      # with the default GITHUB_TOKEN raises no event: GitHub suppresses it so that automation
+      # cannot trigger itself in a loop. telegram-informer.yml listens for exactly that push, which
+      # is why it never fires for these commits.
+      #
+      # The id above matters too. The version of this step that used to sit here commented out
+      # tested steps.auto-commit-action.outputs.changes_detected against a step that carried no id,
+      # so the condition was always empty and never true.
+      - name: Notify Telegram
+        if: steps.commit.outputs.changes_detected == 'true'
+        run: |
+          curl --silent --show-error --fail --output /dev/null \
+            --request POST "${{ secrets.TLG_URL }}" \
+            --data-urlencode "chat_id=${{ secrets.TLG_CHAT }}" \
+            --data-urlencode "text=${{ secrets.TLG_TEXT }}" \
+            --data-urlencode "parse_mode=HTML"
