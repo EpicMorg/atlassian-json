@@ -72,6 +72,15 @@
     "type": "Binary"
   },
   {
+    "description": "4.2.20_324 - SourceTree for Mac",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.20_324.zip",
+    "version": "4.2.20_324",
+    "platform": "Mac",
+    "released": null,
+    "type": "Binary"
+  },
+  {
     "description": "4.2.1_248 - SourceTree for Mac",
     "edition": "Standard",
     "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.1_248.zip",
@@ -391,6 +400,24 @@
     "edition": "Enterprise",
     "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.4.msi",
     "version": "3.4.4",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.33 - SourceTree for Windows",
+    "edition": "Standard",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.33.exe",
+    "version": "3.4.33",
+    "platform": "Windows",
+    "released": null,
+    "type": "Binary"
+  },
+  {
+    "description": "3.4.33 - SourceTree for Windows",
+    "edition": "Enterprise",
+    "zipUrl": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.33.msi",
+    "version": "3.4.33",
     "platform": "Windows",
     "released": null,
     "type": "Binary"
